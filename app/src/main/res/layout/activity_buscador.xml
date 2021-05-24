@@ -54,6 +54,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="#FCD340"
+                    android:onClick="buscarSitio"
                     android:text="Buscar" />
             </LinearLayout>
 
@@ -79,6 +80,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:backgroundTint="#962d2d"
+                    android:onClick="buscarSugerencia1"
                     android:text="Cafeterías" />
 
                 <Button
@@ -91,6 +93,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:backgroundTint="#233e8b"
+                    android:onClick="buscarSugerencia2"
                     android:text="Bares" />
             </LinearLayout>
 
@@ -109,6 +112,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:backgroundTint="#1eae98"
+                    android:onClick="buscarSugerencia3"
                     android:text="Comida" />
 
                 <Button
@@ -121,6 +125,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:backgroundTint="#564a4a"
+                    android:onClick="buscarSugerencia4"
                     android:text="Gasolineras" />
             </LinearLayout>
 
