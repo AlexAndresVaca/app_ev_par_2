@@ -98,6 +98,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:backgroundTint="#0d0d73"
+                    android:onClick="buscar"
                     android:text="Buscar"
                     android:textColor="#FFFFFF" />
 

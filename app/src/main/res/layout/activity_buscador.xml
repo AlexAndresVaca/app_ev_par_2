@@ -144,6 +144,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#0d0d73"
+                android:onClick="cerrarBuscador"
                 android:text="Regresar" />
         </LinearLayout>
     </ScrollView>
