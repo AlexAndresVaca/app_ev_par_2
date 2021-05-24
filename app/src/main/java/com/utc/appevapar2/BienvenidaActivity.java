@@ -2,7 +2,9 @@ package com.utc.appevapar2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 
 public class BienvenidaActivity extends AppCompatActivity {
 
@@ -10,5 +12,13 @@ public class BienvenidaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bienvenida);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent ventantaInicio = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(ventantaInicio);
+                finish();
+            }
+        }, 4000);
     }
 }
