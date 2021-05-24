@@ -30,7 +30,7 @@
                 android:layout_marginBottom="10dp"
                 android:text="Que deseas buscar?"
                 android:textColor="#0d0d73"
-                android:textSize="18sp"
+                android:textSize="28sp"
                 android:textStyle="bold" />
 
             <LinearLayout
